@@ -10,7 +10,7 @@ body {
 #cabecera
 {
     background: #33A;
-    box-shadow: 0px 2px 20 px 0px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 2px 20px 0px rgba(0,0,0,0.5);
     color: white;
     font-weight: bold;
     margin: 0;
@@ -26,12 +26,18 @@ body {
 #container
 {
     width: 70%;
-    padding: 1em;
+    padding: 0;
     text-align: left;
     border: 1px solid #DDD;
     margin: 0 auto;
 }
+
 #container h1
 {
     font-size: 20px;
+}
+
+#post
+{
+    padding: 1em;
 }
